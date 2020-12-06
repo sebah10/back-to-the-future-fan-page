@@ -308,10 +308,10 @@ body h1 {
 .close {
     display: block;
     position: absolute;
-    top: 40px;
-    right: 40px;
-    background: #F0A81A;
-    color: white;
+    top: 130px;
+    right: 280px;
+    background: #0E2E5F;
+    color: #F0A81A;
     text-decoration: none;
     width: 40px;
     height: 40px;
@@ -324,48 +324,13 @@ body h1 {
 .next {
     display: block;
     background: #F0A81A;
-    color: white;
+    color: #0E2E5F;
     width: 30px;
     height: 30px;
     line-height: 30px;
     text-decoration: none;
     text-align: center;
 }
-
-/* .galeria-contenedor {
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-bottom: 2em;
-}
-
-.galeria-contenedor img {
-    width: 23%;
-    height: 220px;
-    margin: 10px;
-    border: 2px solid #333;
-    box-shadow: 0 0 0 2px white;
-
-}
-
-@media screen and (max-width: 768px) {
-    .galeria-contenedor img  {
-        width: 30%;
-    }
-}
-@media screen and (max-width: 480px) {
-    .galeria-contenedor img  {
-    width: 45%;
-    }
-  }
-
-@media (max-width: 369px) {
-    .galeria-contenedor img {
-        width:100%;
-    }
-} */
-
 
 
 /* ------ CURIOSIDADES ------ */
