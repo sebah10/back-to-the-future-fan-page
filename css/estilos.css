@@ -297,8 +297,8 @@ body h1 {
 }
 
 .light-box img {
-    width: 50vw;
-    max-height: 70vh;
+    width: 55vw;
+    max-height: 75vh;
 }
 
 .light-box:target{
@@ -308,8 +308,8 @@ body h1 {
 .close {
     display: block;
     position: absolute;
-    top: 130px;
-    right: 280px;
+    top: 80px;
+    right: 250px;
     background: #0E2E5F;
     color: #F0A81A;
     text-decoration: none;
@@ -328,8 +328,24 @@ body h1 {
     width: 30px;
     height: 30px;
     line-height: 30px;
+    margin: 10px;
     text-decoration: none;
     text-align: center;
+}
+
+
+.trailers-formato {
+    display: flex;
+    margin: 10px;
+    padding: 20px 30px;
+    justify-content: space-around;
+}
+
+.soundtrack-formato {
+    display: flex;
+    margin: 10px;
+    padding: 20px 30px;
+    justify-content: space-around;
 }
 
 
