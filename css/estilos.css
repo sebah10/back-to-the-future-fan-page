@@ -54,6 +54,7 @@ a {
 }
 
 .imagen-arriba {
+    background: url(../Images/Arriba\ Flecha.png);
     width: 08%;
     position: fixed;
         bottom: 0.1em;
