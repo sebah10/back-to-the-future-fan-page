@@ -121,6 +121,7 @@ section h5 {
 
 .tarjeta img {
     width: 100%;
+    box-shadow: 0 0 8px rgba(0, 0, 0, .9);
 }
 
 .tarjeta {
@@ -133,12 +134,14 @@ section h5 {
 .tarjeta h2 {
     color: #F0A81A;
     padding-bottom: 0.5em;
+    
 }
 
 .parrafo {
     font-size: 1.2em;
     text-align: left;
     color: #F0A81A;
+    
 }
 
 .tarjeta a {
@@ -148,7 +151,7 @@ section h5 {
 }
 
 
-/* ------ MULTIMEDIA ------ */
+/* ------ GALERIA ------ */
 
 .linea {
     background: #F0A81A;
@@ -338,6 +341,10 @@ body h1 {
     text-decoration: none;
     text-align: center;
 }
+
+
+
+/* ------ MULTIMEDIA ------ */
 
 
 .trailers-formato {
