@@ -121,7 +121,7 @@ section h5 {
 
 .tarjeta img {
     width: 100%;
-    box-shadow: 0 0 8px rgba(0, 0, 0, .9);
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.9);
 }
 
 .tarjeta {
@@ -196,7 +196,7 @@ section h5 {
     font-size: 1.2em;
     background: none;
     cursor: pointer;
-    padding: 20px 60px;
+    padding: 10px 30px;
     display: inline-block;
     margin: 15px 30px;
     text-transform: uppercase;
@@ -253,7 +253,7 @@ body h1 {
 .subtitulo-galeria {
     font-size: 2em;
     margin-top: 1em;
-    margin-left: 1.2em;
+    margin-left: 2em;
     color: #F0A81A; 
 }
 
@@ -261,7 +261,7 @@ body h1 {
 .galeria {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-    width: 95%;
+    width: 91%;
     margin: auto;
     grid-gap: 12px;
     padding: 20px 0;
