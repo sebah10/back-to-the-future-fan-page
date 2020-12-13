@@ -89,11 +89,13 @@ a {
 .home__titulo {
 	color: #F0A81A;
     font-size: 2.5em;
+
 }
 
 .home__subtitulo {
     display: block;
     font-size: 1em;
+    mix-blend-mode: screen;
 }
 
 section h5 {
@@ -104,43 +106,47 @@ section h5 {
 
 
 
-
 /* ------ SINOPSIS ------*/
 
-
-.titulo-sinopsis {
+.tarjetas h2 {
     text-align: center;
-    font-size: 2.5em;
-    margin-bottom: 1em;
-    font-weight: 600;
-}
-
-.sinopsis img {
-    display: inline;
-    width: 18%;
-    height: 30%;
-    float: left;
-    margin-right: 20px;
-    margin-bottom: 20px;
-    margin: 1%;
-    }
-
-.subtitulo-sinopsis {  
     color: #F0A81A;
-    text-align: justify;
-    font-size: 2em;
-    font-weight: 1000;
 
 }
 
-.sinopsis p {
-    display: inline;
+.tarjetas {
+    display:flex;
+    justify-content: center;
+}
+
+.tarjeta img {
+    width: 100%;
+}
+
+.tarjeta {
+    width: 27%;
+    margin: 0 30px;
+    padding: 25px;
+    text-align: center;
+}
+
+.tarjeta h2 {
     color: #F0A81A;
-    text-align: justify;
+    padding-bottom: 0.5em;
+}
+
+.parrafo {
     font-size: 1.2em;
-    padding-bottom: 5%;
-    padding-right: 5%;
+    text-align: left;
+    color: #F0A81A;
 }
+
+.tarjeta a {
+    text-decoration: none;
+	color: #F0A81A;
+    font-size: 1.5em;
+}
+
 
 /* ------ MULTIMEDIA ------ */
 
