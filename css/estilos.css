@@ -16,7 +16,112 @@ body {
         position: relative;
 }
 
-.menu_flex {
+header a {
+    text-decoration: none;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+.contenedor {
+    width: 90%;
+    max-width: 1200px;
+    margin: auto;
+
+}
+
+.contenedor li:hover {
+	background: #11387D;
+}
+
+/*   HEADER   */
+
+header {
+    padding: 1.5rem 0;
+    background: #0E2E5F;
+}
+
+header .contenedor {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+header ul {
+    display:flex;
+        flex-flow: row wrap;
+        align-items: center;
+}
+
+header ul li {
+    margin-left: 2rem;
+    padding: .5em 1em;
+}
+
+header ul li a {
+    color:#F0A81A;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.icon {
+    display: none;
+}
+
+@media screen and (max-width: 768px) {
+    header nav {
+        position: fixed;
+        left: -100%;
+        top: 0;
+        width: 80%;
+        height: 100vh;
+        background: #0E2E5F;
+        box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
+        transition: left 0.5s;
+
+    }
+
+    #menu:target {
+        left: 0;
+    }
+
+    .icon {
+        display: block;
+
+        /* Filter solo para cambiar el color */
+        width: 3rem;
+    }
+
+    .close {
+        position: absolute;
+        left: 2rem;
+        top: 2rem;
+    }
+    
+    header ul {    
+        width: 100%;
+        height: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    header ul li {
+        margin: .8em 0;
+
+    }
+
+    header ul li a {
+        font-size: 2.56rem;
+    }
+
+}
+
+
+
+/* .menu_flex {
 	display: flex;
 		flex-flow: row wrap;
 		justify-content: space-between;
@@ -40,12 +145,12 @@ body {
 	background: #11387D;
 }
 
-a {
+.menu_flex a {
 	text-decoration: none;
 	color: #F0A81A;
     text-transform: uppercase;
     font-size: 2em;
-}
+} */
 
 
 .arriba:hover {
@@ -55,7 +160,7 @@ a {
 
 .imagen-arriba {
     background: no-repeat;
-    width: 08%;
+    width: 6%;
     position: fixed;
         bottom: 0.1em;
         right: 0.1em;
@@ -71,6 +176,9 @@ a {
     transform: rotate(90deg);
 
 }
+
+
+
 
 
 
@@ -104,6 +212,9 @@ section h5 {
     font-size: 1.5em;
 	color: #F0A81A;
 }
+
+
+
 
 
 
@@ -150,6 +261,11 @@ section h5 {
 	color: #F0A81A;
     font-size: 1.5em;
 }
+
+
+
+
+
 
 
 /* ------ GALERIA ------ */
@@ -292,6 +408,7 @@ body h1 {
 }
 
 .light-box {
+
     position: fixed;
     top: 0;
     left: 0;
@@ -345,6 +462,8 @@ body h1 {
 
 
 
+
+
 /* ------ MULTIMEDIA ------ */
 
 
@@ -363,14 +482,10 @@ body h1 {
 }
 
 
-/* ------ CURIOSIDADES ------ */
 
-.curiosidades h1 {
-    font-size: 2.5em;
-    color: #F0A81A;
-}
 
-    
+
+
 /* ------ CONTACTO ------ */
 
 
