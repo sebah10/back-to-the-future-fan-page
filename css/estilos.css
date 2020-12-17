@@ -25,9 +25,9 @@ nav ul li {
 }
 
 .contenedor {
-    width: 90%;
+    width: 100%;
     max-width: 1200px;
-    margin: auto;
+    margin: 1% 0 0 1%;
 
 }
 
@@ -79,11 +79,11 @@ header {
 header .contenedor {
     display: flex;
     justify-content: space-between;
-    margin: 1%;
+
 }
 
 .logo-menu {
-    width: 50%;
+    width: 80%;
     justify-content: space-between;
 }
 
@@ -96,7 +96,6 @@ header ul li {
     list-style: none;
 	background: #0E2E5F;
     padding: .7em 1em;
-    margin-left: 2rem;
 
 }
 
@@ -158,15 +157,22 @@ header ul li a {
         font-size: 2.56rem;
     }
 
-    nav .logo-menu {
+    header div .logo-menu {
         display: none;
     }
 
     .home h1 span {
         font-size: 1em;
         padding: 0%;
+     }
+
+    .home {
+        padding-left: 1em;
     }
 
+    footer section h5 {
+        font-size: 0.8em;
+    }
 }
 
 
@@ -240,8 +246,6 @@ header ul li a {
 	background: url("../Images/2\ 1.jpg")no-repeat 50%;
 	background-size: cover;
 	height: 550px;
-	display: grid;
-	padding-left:30em;
 }
 
 
@@ -254,7 +258,7 @@ header ul li a {
 .home__subtitulo {
     display: block;
     font-size: 1em;
-    mix-blend-mode: screen;
+
 }
 
 section h5 {
