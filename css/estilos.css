@@ -351,6 +351,7 @@ section h5 {
 }
 
 .modal-content {
+    display: block;
     background: #fefefe;
     width: 750px;
     height: 80vh;
