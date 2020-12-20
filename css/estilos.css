@@ -115,7 +115,7 @@ header ul li a {
         position: fixed;
         left: -100%;
         top: 0;
-        width: 80%;
+        width: 40%;
         height: 100vh;
         background: #0E2E5F;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
@@ -129,9 +129,7 @@ header ul li a {
 
     .icon {
         display: block;
-
-        /* Filter solo para cambiar el color */
-        width: 3rem;
+        width: 3em;
     }
 
     .close {
@@ -164,7 +162,7 @@ header ul li a {
     .home h1 span {
         font-size: 1em;
         padding: 0%;
-     }
+    }
 
     .home {
         padding-left: 1em;
@@ -315,6 +313,64 @@ section h5 {
 	color: #F0A81A;
     font-size: 1.5em;
 }
+
+
+/* MODAL */
+
+.btn {
+    background: #0E2E5F;
+    border-radius:5px;
+    text-transform:uppercase;
+}
+
+.closebtn {
+    color: #F0A81A;
+    padding: 3px 6px;
+    margin: 5%;
+}
+
+
+.btn:hover {
+    box-shadow: 0 5px 5px 0px rgba(0,0,0,0.4);
+}
+
+.modal {
+    position: fixed;
+    font-size: 1.2em;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background: rgba(0,0,0,0.8);
+    z-index: 99;
+    opacity:0;
+    -webkit-transition: opacity 400ms ease-in;
+    -moz-transition: opacity 400ms ease-in;
+    transition: opacity 400ms ease-in;
+    pointer-events: none;
+}
+
+.modal-content {
+    background: #fefefe;
+    width: 750px;
+    height: 80vh;
+    position: relative;
+    margin: 5% auto;
+    padding: 5px 20px 13px 20px;
+    border-radius: 5px;
+}
+
+.modal:target {
+    opacity:1;
+    pointer-events: auto;
+}
+
+#close {
+    display:none;
+}
+
+
+
 
 
 
