@@ -348,10 +348,10 @@ section h5 {
     -moz-transition: opacity 400ms ease-in;
     transition: opacity 400ms ease-in;
     pointer-events: none;
+    display: none;
 }
 
 .modal-content {
-    display: block;
     background: #fefefe;
     width: 750px;
     height: 80vh;
@@ -364,6 +364,7 @@ section h5 {
 .modal:target {
     opacity:1;
     pointer-events: auto;
+    display: block;
 }
 
 #close {
