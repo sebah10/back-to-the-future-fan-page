@@ -35,43 +35,7 @@ nav ul li {
 	background: #11387D;
 }
 
-/*   HEADER   */
 
-
-/* .menu_flex {
-	display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-	background: #0E2E5F;
-	padding: .5em 1em;
-}
-
-.menu_flex ul {
-	display: flex;
-		flex-flow: row wrap;
-		align-items: center;
-}
-
-.menu_flex li {
-    list-style: none;
-	background: #0E2E5F;
-    padding: .7em 1em;
-}
-
-.menu_flex li:hover {
-	background: #11387D;
-}
-
-.menu_flex a {
-	text-decoration: none;
-	color: #F0A81A;
-    text-transform: uppercase;
-    font-size: 2em;
-}
-
-.menu {
-    margin-right: 1%;
-} */
 header {
     background: #0E2E5F;
 }
@@ -175,38 +139,6 @@ header ul li a {
 
 
 
-/* .menu_flex {
-	display: flex;
-		flex-flow: row wrap;
-		justify-content: space-between;
-	background: #0E2E5F;
-	padding: .5em 1em;
-}
-
-.menu_flex ul {
-	display: flex;
-		flex-flow: row wrap;
-		align-items: center;
-}
-
-.menu_flex li {
-    list-style: none;
-	background: #0E2E5F;
-    padding: .7em 1em;
-}
-
-.menu_flex li:hover {
-	background: #11387D;
-}
-
-.menu_flex a {
-	text-decoration: none;
-	color: #F0A81A;
-    text-transform: uppercase;
-    font-size: 2em;
-} */
-
-
 .arriba:hover {
     background: #11387D;
     color: #F0A81A;
@@ -250,6 +182,7 @@ header ul li a {
 .home__titulo {
 	color: #F0A81A;
     font-size: 2.5em;
+    -webkit-text-stroke: 2px#F0A81A;
 
 }
 
@@ -336,7 +269,7 @@ section h5 {
 
 .modal {
     position: fixed;
-    font-size: 1.2em;
+    font-size: 1.18em;
     top: 0;
     right: 0;
     bottom: 0;
