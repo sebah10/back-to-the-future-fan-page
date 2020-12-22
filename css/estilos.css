@@ -324,12 +324,11 @@ section h5 {
     }
 
     .tarjeta {
-        width: 70%;
+        width: 100%;
         padding: 25px;
         text-align: center;
         margin:auto;
     }
-
 
 }
 
