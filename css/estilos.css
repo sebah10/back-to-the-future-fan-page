@@ -579,13 +579,7 @@ body h1 {
     }
 
     .galeria {
-        display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-        width: 45%;
-        margin: auto;
-        grid-gap: 12px;
-        padding: 20px 0;
-        overflow: hidden;
+        width: 50%;
     }   
 
     .titulo-galeria {
@@ -616,6 +610,10 @@ body h1 {
         margin-left: 77%;
     }
 
+    .subtitulo-galeria {
+        font-size: 1em;
+        text-align: center;
+    }
 }
 
 
