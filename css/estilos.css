@@ -122,7 +122,7 @@ header ul li a {
 
     .icon {
         display: block;
-        width: 3em;
+        width: 2.5em;
     }
 
     .close {
@@ -168,7 +168,7 @@ header ul li a {
     .imagen-arriba {
         display: none;
 }
-
+}
 
 /* ------ HOME ------ */
 
@@ -562,7 +562,61 @@ body h1 {
 }
 
 
+@media screen and (max-width: 768px) {
 
+    .imagen-auto img {
+        width: 101%;
+    }
+
+    .imagen-auto p {
+        text-transform: uppercase;
+        color: #F0A81A;
+        font-size: 1em;
+        position: relative;
+        left: 30px;
+        bottom: 53px;
+        width: 60%;
+    }
+
+    .galeria {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+        width: 45%;
+        margin: auto;
+        grid-gap: 12px;
+        padding: 20px 0;
+        overflow: hidden;
+    }   
+
+    .titulo-galeria {
+        font-size: 1.5em;
+        margin-bottom: 5%;
+    }  
+
+        .galeria img {
+            width: 60%;
+
+        }
+
+    
+    .light-box img {
+        width: 80%;
+        max-height: 50vh;
+
+    }
+
+    .light-box {
+        width: 82%;
+        height: 100%;
+    }
+
+
+    .close {
+        top: 32%;
+        margin-left: 77%;
+    }
+
+}
 
 
 /* ------ MULTIMEDIA ------ */
