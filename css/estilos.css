@@ -135,6 +135,21 @@ header ul li a {
     footer section h5 {
         font-size: 0.8em;
     }
+
+    .imagen-arriba {
+        background: no-repeat;
+        width: 15%;
+        position: fixed;
+            bottom: 0.1em;
+            right: 0.1em;
+        padding: .5em; 
+        border-radius: .5em;
+        text-decoration: none;
+        text-transform: uppercase;
+        transition: 1s;
+    }
+
+
 }
 
 
