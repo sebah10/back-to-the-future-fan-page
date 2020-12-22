@@ -108,13 +108,14 @@ header ul li a {
         position: fixed;
         left: -100%;
         top: 0;
-        width: 40%;
-        height: 100vh;
-        background: #0E2E5F;
+        width: 100%;
+        height: 10%;
+        background:  #0E2E5F;;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
         transition: left 0.5s;
 
     }
+
 
     #menu:target {
         left: 0;
@@ -133,20 +134,21 @@ header ul li a {
     
     header ul {    
         width: 100%;
-        height: 100%;
-        flex-direction: column;
         justify-content: center;
         align-items: center;
+        background: #0E2E5F;;
+        margin: 1%
     }
 
     header ul li {
-        margin: .8em 0;
+
 
     }
 
     header ul li a {
-        font-size: 1.5em;
+        font-size: 1em;
     }
+
 
     header div .logo-menu {
         display: none;
@@ -614,7 +616,7 @@ body h1 {
         font-size: 0.5em;
         padding: 5px 15px;
         margin: 1px 6px;
-
+        position: inherit;
     }
 }
 
