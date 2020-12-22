@@ -636,25 +636,30 @@ body h1 {
 
 
 @media screen and (max-width: 768px) {
-
+/* 
     .trailers-formato {
         margin: 10px;
         padding: 20px 30px;
         justify-content: space-around;
         display: flow-root;
         margin: auto;
-    }
+    } */
     
-    .trailers-formato iframe {
-        width: 100%; 
-   
+    .trailers-formato {
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        padding-bottom: 56.25%;
+        height: 0;
+        margin: 5%;
     }
 
     .soundtrack-formato {
-        display: block;
-        width: 100%;
-
-
+        display: inline-block;
+        position: relative;
+        padding: 0;
+        padding-bottom: 56.25%;
+        height: 0;
     }
 
 }
