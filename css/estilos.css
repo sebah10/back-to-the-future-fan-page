@@ -74,6 +74,35 @@ header ul li a {
     display: none;
 }
 
+
+
+
+
+.arriba:hover {
+    background: #11387D;
+    color: #F0A81A;
+}
+
+.imagen-arriba {
+    background: no-repeat;
+    width: 6%;
+    position: fixed;
+        bottom: 0.1em;
+        right: 0.1em;
+    padding: .5em; 
+    border-radius: .5em;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: 1s;
+}
+
+
+.imagen-arriba:hover {
+    transform: rotate(90deg);
+
+}
+
+
 @media screen and (max-width: 768px) {
     header nav {
         position: fixed;
@@ -137,49 +166,8 @@ header ul li a {
     }
 
     .imagen-arriba {
-        background: no-repeat;
-        width: 15%;
-        position: fixed;
-            bottom: 0.1em;
-            right: 0.1em;
-        padding: .5em; 
-        border-radius: .5em;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 1s;
-    }
-
-
+        width: 10%;
 }
-
-
-
-.arriba:hover {
-    background: #11387D;
-    color: #F0A81A;
-}
-
-.imagen-arriba {
-    background: no-repeat;
-    width: 6%;
-    position: fixed;
-        bottom: 0.1em;
-        right: 0.1em;
-    padding: .5em; 
-    border-radius: .5em;
-    text-decoration: none;
-    text-transform: uppercase;
-    transition: 1s;
-}
-
-
-.imagen-arriba:hover {
-    transform: rotate(90deg);
-
-}
-
-
-
 
 
 /* ------ HOME ------ */
