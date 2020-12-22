@@ -564,17 +564,12 @@ body h1 {
 
 @media screen and (max-width: 768px) {
 
-    .imagen-auto img {
-        width: 101%;
-    }
-
     .imagen-auto p {
         text-transform: uppercase;
         color: #F0A81A;
-        font-size: 1em;
-        position: relative;
-        left: 30px;
-        bottom: 53px;
+        font-size: 0.7em;
+        left: 20px;
+        bottom: 20px;
         width: 60%;
     }
 
@@ -611,8 +606,15 @@ body h1 {
     }
 
     .subtitulo-galeria {
-        font-size: 1em;
+        font-size: 0.6em;
         text-align: center;
+    }
+
+    .buttom {
+        font-size: 0.5em;
+        padding: 5px 15px;
+        margin: 1px 6px;
+
     }
 }
 
