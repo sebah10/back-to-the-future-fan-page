@@ -332,16 +332,16 @@ section h5 {
 
     .modal-content {
         background: rgb(254, 254, 254);
-        width: 500px;
-        height: 100vh;
+        width: 350px;
+        height: 80vh;
         position: relative;
-        margin: 5% auto;
+        margin: 10% auto;
         padding: 5px 20px 13px;
         border-radius: 5px;
     }  
 
     .modal {
-        font-size: 1.1em;
+        font-size: 0.8em;
     }
 
 
