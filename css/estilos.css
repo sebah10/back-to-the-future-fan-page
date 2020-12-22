@@ -330,6 +330,21 @@ section h5 {
         margin:auto;
     }
 
+    .modal-content {
+        background: rgb(254, 254, 254);
+        width: 500px;
+        height: 100vh;
+        position: relative;
+        margin: 5% auto;
+        padding: 5px 20px 13px;
+        border-radius: 5px;
+    }  
+
+    .modal {
+        font-size: 1.1em;
+    }
+
+
 }
 
 
@@ -587,4 +602,4 @@ label {
     color: #1DA1F2;}
 
 .instagram {
-    color: #bc2a8d}
+    color: #bc2a8d;}
