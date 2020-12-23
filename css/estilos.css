@@ -636,7 +636,15 @@ body h1 {
 
 
 @media screen and (max-width: 768px) {
-/* 
+    .titulo-galeria {
+        font-size: 1.5em;
+        margin: 0;
+
+    }
+
+
+
+    /* 
     .trailers-formato {
         margin: 10px;
         padding: 20px 30px;
@@ -645,14 +653,65 @@ body h1 {
         margin: auto;
     } */
     
-    .trailers-formato {
-        display: inline-block;
-        position: relative;
-        padding: 0;
-        padding-bottom: 56.25%;
-        height: 0;
-        margin: 5%;
+
+    .trailers-formato{
+        display: block;
     }
+
+    .trailers-formato .trailer1 {
+        position: relative;
+        width: 90%;
+        padding-top: 0;
+        padding-bottom: 56.25%; 
+        height: 0;
+        margin: 10%;
+        margin-top: 0;
+
+    }
+    .trailers-formato .trailer1 iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .trailers-formato .trailer2 {
+
+        position: relative;
+        width: 90%;
+        padding-bottom: 56.25%; 
+        height: 0;
+        margin: 10%;
+
+    }
+    
+    .trailers-formato .trailer2 iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+    .trailers-formato .trailer3 {
+
+        position: relative;
+        width: 90%;
+        padding-bottom: 56.25%; 
+        height: 0;
+        margin: 10%;
+
+    }
+    .trailers-formato .trailer3 iframe {
+        position: absolute;
+        top:0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+    }
+
+
 
     .soundtrack-formato {
         display: inline-block;
