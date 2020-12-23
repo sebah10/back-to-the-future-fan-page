@@ -348,10 +348,11 @@ section h5 {
         margin: 3% auto;
         padding: 5px 20px 13px;
         border-radius: 5px;
+        overflow: auto;
     }  
 
     .modal {
-        font-size: 0.76em;
+        font-size: 1.2em;
     }
 
 
