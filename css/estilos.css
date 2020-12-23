@@ -75,9 +75,6 @@ header ul li a {
 }
 
 
-
-
-
 .arriba:hover {
     background: #11387D;
     color: #F0A81A;
@@ -113,6 +110,7 @@ header ul li a {
         background:  #0E2E5F;;
         box-shadow: 2px 0 10px rgba(0, 0, 0, 0.5);
         transition: left 0.5s;
+        z-index: 1;
 
     }
 
@@ -143,6 +141,7 @@ header ul li a {
 
     header ul li a {
         font-size: 1em;
+
     }
 
 
@@ -608,12 +607,55 @@ body h1 {
         text-align: center;
     }
 
+
     .buttom {
+        border: 4px solid #F0A81A;
+        color: #F0A81A;
         font-size: 0.8em;
+        background: none;
+        cursor: pointer;
         padding: 5px 15px;
-        margin: 1px 6px;
-        position: inherit;
+        display: inline-block;
+        margin: 1px 3px;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+        font-weight: 500;
+        outline: none;
+        position: relative;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
     }
+    
+    .buttom:after {
+        content: '';
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+    
+    /* Button 1 */
+    .buttom-1:hover,
+    .buttom-1:active {
+        color: #0E2E5F;
+    }
+    
+    /* Button 1b */
+    .buttom-1b:after {
+        width: 100%;
+        height: 0;
+        top: 0;
+        left: 0;
+        background:  #F0A81A;
+    }
+    
+    .buttom-1b:hover:after,
+    .buttom-1b:active:after {
+        height: 100%;
+    }
+    
 }
 
 
