@@ -563,10 +563,7 @@ body h1 {
 @media screen and (max-width: 768px) {
 
     .imagen-auto p {
-        text-transform: uppercase;
-        color: #F0A81A;
         font-size: 0.7em;
-        left: 20px;
         bottom: 20px;
         width: 60%;
     }
@@ -705,7 +702,9 @@ body h1 {
 
     }
 
-
+    .imagen-auto p {
+        width: 80%;
+    }
 
     .trailers-formato{
         display: block;
@@ -813,6 +812,13 @@ body h1 {
 
 /* ------ CONTACTO ------ */
 
+.container {
+	background: url("../Images/carta.jpg")no-repeat 125%;
+    height: 570px;
+
+
+}
+
 
 .container h1 {
     font-size: 2.5em;
@@ -823,17 +829,28 @@ body h1 {
 
 .container p {
     color: #F0A81A;
-    font-size: 1.5em;
+
 }
 
+/* .imagen-carta img {
+    display: inline;
+    float: right;
+    width: 30%;
+} */
 
 label {
     font-size: 1.3em;
     color: #F0A81A;
 }
 
+.btn-send {
+    color: #F0A81A;
+}
+
 .redes {
     padding: 10px;
+    font-size: 3em;
+    letter-spacing: 0.5em;
 }
 
 .facebook {
@@ -844,3 +861,22 @@ label {
 
 .instagram {
     color: #bc2a8d;}
+
+
+@media screen and (max-width: 768px) {
+
+    .container h1 {
+        font-size: 1.5em; 
+    }
+
+    .container p {
+        color: #F0A81A;
+        font-size: 1em;
+    }
+
+    .redes {
+        font-size: 3em;
+        letter-spacing: 0.5em;
+        }
+
+}
