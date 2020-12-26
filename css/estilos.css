@@ -149,18 +149,7 @@ header ul li a {
         display: none;
     }
 
-    .home h1 span {
-        font-size: 1em;
-        padding: 0%;
-    }
 
-    .home {
-        padding-left: 1em;
-    }
-
-    footer section h5 {
-        font-size: 0.8em;
-    }
 
     .imagen-arriba {
         display: none;
@@ -173,7 +162,7 @@ header ul li a {
 .home {
 	background: url("../Images/2\ 1.jpg")no-repeat 50%;
 	background-size: cover;
-	height: 550px;
+	height: 460px;
 }
 
 
@@ -192,16 +181,70 @@ header ul li a {
     text-shadow: 2px 2px 5px #9c6e11;
 }
 
-section h5 {
-    text-align: right;
+.footer-home h4 {
+    color:#F0A81A;
     font-size: 1.5em;
-	color: #F0A81A;
+    text-shadow: 1px 1px #000000;
+    color: #F0A81A;
+    text-align: right;
+    margin-right: 1%;
 }
+
+.desing h5 {
+    color:#F0A81A;
+    font-size: 1.1em;
+    text-shadow: 1px 1px #000000;
+    color: #F0A81A;
+    text-align: right;
+    margin-right: 1%;
+}
+
+.desing a {
+    padding-left: 2px;
+    font-size: 1.1em;
+    color: #f77737;
+}
+
 
 @media screen and (max-width: 768px) {
     .home {
-        height: 400px;
+        height: 500px;
     }
+
+    .home h1 .home__titulo {
+        font-size: 1.3em;
+        padding: 0%;
+    }
+
+    .home h1 .home__subtitulo {
+        font-size: 1em;
+        padding: 0%;
+    }
+
+    .home {
+        padding-left: 1em;
+    }
+
+ 
+    .footer-home h4 {
+        color:#F0A81A;
+        font-size: 0.8em;
+        text-shadow: 1px 1px #000000;
+        color: #F0A81A;
+        text-align: right;
+        margin-right: 1%;
+    }
+    
+    .desing h5 {
+        color:#F0A81A;
+        font-size: 0.7em;
+        text-shadow: 1px 1px #000000;
+        color: #F0A81A;
+        text-align: right;
+        margin-right: 1%;
+    }
+
+
 }
 
 
@@ -325,6 +368,12 @@ section h5 {
 
 @media screen and (max-width: 768px) {
     
+
+    .titulo-sinopsis {
+        font-size: 1.5em;
+        margin: 0%;
+    }
+    
     .tarjetas {
         display: block;
         width: 100%;
@@ -390,7 +439,7 @@ section h5 {
     font-size: 2em;
     position: absolute;
     left: 30px;
-    bottom: 40px;
+    bottom: 60px;
     width:50%;
 
 }
@@ -460,6 +509,7 @@ body h1 {
     font-size: 2.5em;
     margin-top: 0.5em;
     margin-left: 1.2em;
+    margin-bottom: 1em;
     color: #F0A81A; 
     text-transform: uppercase;
     text-shadow: 1px 1px #000000;
@@ -694,6 +744,9 @@ body h1 {
     justify-content: space-around;
 }
 
+.imagen-auto .subtituloseccion  {
+    bottom: 40px;
+}
 
 @media screen and (max-width: 768px) {
     .titulo-galeria {
@@ -816,8 +869,7 @@ body h1 {
 	background: url("../Images/carta.jpg")no-repeat 125%;
     height: 570px;
 
-
-}
+    }
 
 
 .container h1 {
@@ -859,7 +911,7 @@ label {
 .twitter {
     color: #1DA1F2;}
 
-.instagram {
+.redes .instagram {
     color: #bc2a8d;}
 
 
@@ -879,4 +931,8 @@ label {
         letter-spacing: 0.5em;
         }
 
+    .container {
+        background: none;
+
+    }   
 }
