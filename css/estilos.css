@@ -377,16 +377,15 @@ header ul li a {
     .tarjetas {
         display: block;
         width: 100%;
-
-        padding: 25px;
+        padding: 5px;
         text-align: center;
     }
 
     .tarjeta {
         width: 100%;
-        padding: 25px;
         text-align: center;
         margin:auto;
+        padding: 10px 30px;
     }
 
     .modal-content {
@@ -403,6 +402,9 @@ header ul li a {
     .modal {
         font-size: 1.2em;
     }
+
+
+
 
 
 }
@@ -647,8 +649,8 @@ body h1 {
         margin-bottom: 5%;
     }  
 
-        .galeria img {
-            width: 60%;
+    .galeria img {
+        width: 60%;
 
         }
 
@@ -682,7 +684,7 @@ body h1 {
         font-size: 0.8em;
         background: none;
         cursor: pointer;
-        padding: 5px 15px;
+        padding: 3px 12px;
         display: inline-block;
         margin: 1px 3px;
         text-transform: uppercase;
@@ -752,7 +754,6 @@ body h1 {
     .titulo-galeria {
         font-size: 1.5em;
         margin: 0;
-
     }
 
     .imagen-auto p {
@@ -772,8 +773,8 @@ body h1 {
         height: 0;
         margin: 10%;
         margin-top: 0;
-
     }
+
     .trailers-formato .trailer1 iframe {
         position: absolute;
         top:0;
@@ -783,13 +784,11 @@ body h1 {
     }
 
     .trailers-formato .trailer2 {
-
         position: relative;
         width: 90%;
         padding-bottom: 56.25%; 
         height: 0;
         margin: 10%;
-
     }
     
     .trailers-formato .trailer2 iframe {
@@ -801,14 +800,13 @@ body h1 {
     }
 
     .trailers-formato .trailer3 {
-
         position: relative;
         width: 90%;
         padding-bottom: 56.25%; 
         height: 0;
         margin: 10%;
-
     }
+
     .trailers-formato .trailer3 iframe {
         position: absolute;
         top:0;
@@ -819,7 +817,6 @@ body h1 {
 
     .soundtrack-formato {
         display: block;
-        /* padding: 20px 20px 0px 0px; */
     }
 
     .soundtrack-formato .sound1 {
@@ -830,8 +827,8 @@ body h1 {
         height: 0;
         margin: 10%;
         margin-top: 0;
-
     }
+
     .soundtrack-formato .sound1 iframe {
         position: absolute;
         top:0;
@@ -848,8 +845,8 @@ body h1 {
         height: 0;
         margin: 10%;
         margin-top: 0;
-
     }
+
     .soundtrack-formato .sound2 iframe {
         position: absolute;
         top:0;
@@ -858,6 +855,9 @@ body h1 {
         height: 100%;
     } 
 
+    .imagen-auto .subtituloseccion  {
+        bottom: 20px;
+    }
 
 }
 
