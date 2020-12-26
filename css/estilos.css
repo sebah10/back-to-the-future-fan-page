@@ -202,7 +202,7 @@ header ul li a {
 .desing a {
     padding-left: 2px;
     font-size: 1.1em;
-    color: #f77737;
+    color: #E1306C;
 }
 
 
@@ -866,9 +866,8 @@ body h1 {
 /* ------ CONTACTO ------ */
 
 .container {
-	background: url("../Images/carta.jpg")no-repeat 125%;
+	background: url("../Images/carta.jpg") no-repeat 125%;
     height: 570px;
-
     }
 
 
@@ -901,7 +900,7 @@ label {
 
 .redes {
     padding: 10px;
-    font-size: 3em;
+    font-size: 2em;
     letter-spacing: 0.5em;
 }
 
