@@ -26,7 +26,7 @@ nav ul li {
 
 .contenedor {
     width: 100%;
-    margin: 1% 0 0 1%;
+    margin: 1% 0 0 0;
     padding-right: 1%;
 }
 
@@ -390,7 +390,7 @@ section h5 {
     font-size: 2em;
     position: absolute;
     left: 30px;
-    bottom: 110px;
+    bottom: 40px;
     width:50%;
 
 }
@@ -571,6 +571,26 @@ body h1 {
         width: 60%;
     }
 
+    #bttf1 {
+        font-size: 2em;
+        margin-right: 1.5em;
+    }
+
+    #bttf2 {
+        font-size: 2em;
+        margin-right: 1.5em;
+    }
+
+    #bttf3 {
+        font-size: 2em;
+        margin-right: 1.5em;
+    }
+
+    #detras-escena {
+        font-size: 2em;
+        margin-right: 1.5em;
+    }
+
     .galeria {
         width: 50%;
     }   
@@ -686,16 +706,6 @@ body h1 {
     }
 
 
-
-    /* 
-    .trailers-formato {
-        margin: 10px;
-        padding: 20px 30px;
-        justify-content: space-around;
-        display: flow-root;
-        margin: auto;
-    } */
-    
 
     .trailers-formato{
         display: block;
