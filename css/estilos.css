@@ -164,10 +164,6 @@ header ul li a {
         transition: 1s;
     }
 
-    .imagen-arriba:hover {
-        transform: rotate(90deg);
-    
-    }
     
 }
 
