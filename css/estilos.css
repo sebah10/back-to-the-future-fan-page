@@ -163,7 +163,13 @@ header ul li a {
         text-transform: uppercase;
         transition: 1s;
     }
-
+    .imagen-arriba:hover {
+        display: none;
+    
+    }
+    .arriba:hover {
+        display: none;
+    }
     
 }
 
