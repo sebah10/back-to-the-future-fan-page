@@ -149,28 +149,11 @@ header ul li a {
         display: none;
     }
 
-
-
     .imagen-arriba {
-        background: no-repeat;
         width: 15%;
-        position: fixed;
-            bottom: 0.1em;
-            right: 0.1em;
-        padding: .5em; 
-        border-radius: .5em;
-        text-decoration: none;
-        text-transform: uppercase;
-        transition: 1s;
-    }
-    .imagen-arriba:hover {
-        display: none;
-    
-    }
-    .arriba:hover {
-        display: none;
     }
     
+
 }
 
 /* ------ HOME ------ */
@@ -419,8 +402,6 @@ header ul li a {
     .modal {
         font-size: 1.2em;
     }
-
-
 
 
 
