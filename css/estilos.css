@@ -228,10 +228,15 @@ header ul li a {
 
 
 @media screen and (max-width: 768px) {
-    .home {
-        height: 450px;
-    }
 
+    .home {
+        background: url("../Images/2\ 1.jpg")no-repeat 70%;
+        background-size: cover;
+        height: 500px;
+        margin-top: 11%;
+        padding-left: 1em;
+    }
+    
     .home h1 .home__titulo {
         font-size: 1.3em;
         padding: 0%;
@@ -242,27 +247,16 @@ header ul li a {
         padding: 0%;
     }
 
-    .home {
-        padding-left: 1em;
-    }
-
  
     .footer-home h4 {
-        color:#F0A81A;
-        font-size: 0.8em;
-        text-shadow: 1px 1px #000000;
-        color: #F0A81A;
-        text-align: right;
-        margin-right: 1%;
+        font-size: 0.85em;
+        margin-top: 1%;
     }
     
     .desing h5 {
-        color:#F0A81A;
-        font-size: 0.7em;
-        text-shadow: 1px 1px #000000;
-        color: #F0A81A;
-        text-align: right;
-        margin-right: 1%;
+        font-size: 0.85em;
+        margin-top: 1%;
+
     }
 
 
@@ -731,7 +725,7 @@ body h1 {
     justify-content: space-around;
 }
 
-.soundtrack-formato{
+.soundtrack-formato {
     font-size: 1.8em;
     color: #F0A81A; 
     text-shadow: 1px 1px #000000;
@@ -758,6 +752,10 @@ body h1 {
     }
 
     .trailers-formato p {
+        display: none;
+    }
+    
+    .soundtrack-formato p {
         display: none;
     }
     
