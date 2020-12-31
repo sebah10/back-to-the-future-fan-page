@@ -404,13 +404,9 @@ header ul li a {
     }
 
     .modal-content {
-        background: rgb(254, 254, 254);
+        background: #fefefe;
         width: 350px;
-        height: 80vh;
-        position: relative;
         margin: 3% auto;
-        padding: 5px 20px 13px;
-        border-radius: 5px;
         overflow: auto;
     }  
 
@@ -426,13 +422,6 @@ header ul li a {
 
 
 /* ------ GALERIA ------ */
-
-.linea {
-    background: #F0A81A;
-    height: 2px;
-    width: 100%;
-    display: block;
-}
 
 .imagen-auto {
     margin: 0;
@@ -757,8 +746,7 @@ body h1 {
     
     .soundtrack-formato p {
         display: none;
-    }
-    
+    }    
 
     .trailers-formato .trailer1 {
         position: relative;
@@ -973,7 +961,7 @@ textarea {
     .redes {
         font-size: 3em;
         letter-spacing: 0.5em;
-        margin: 0;
+        margin-top: 10%;
         text-align: center;
 }
 }
